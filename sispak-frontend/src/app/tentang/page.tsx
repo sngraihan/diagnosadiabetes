@@ -22,7 +22,7 @@ export default function TentangPage() {
           
           <section className="bg-white p-6 md:p-8 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100">
             <h2 className="text-2xl font-bold mb-4 text-slate-700 flex items-center gap-2">
-              <span className="text-3xl">🧮</span> Metode Certainty Factor (CF)
+              <span className="text-3xl"></span> Metode Certainty Factor (CF)
             </h2>
             <div className="text-slate-600 space-y-4 leading-relaxed">
               <p>
