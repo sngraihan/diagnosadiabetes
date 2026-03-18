@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "SISPAK Diabetes",
-  description: "Sistem Pakar Diagnosis Diabetes menggunakan Certainty Factor",
+  title: "SISPAK Diabetes Melitus",
+  description: "Sistem Pakar Diagnosis Diabetes Melitus menggunakan Certainty Factor",
 };
 
 export default function RootLayout({

@@ -88,7 +88,7 @@ export default function Home() {
         {/* Header */}
         <header className="text-center space-y-2">
           <h1 className="text-4xl font-extrabold tracking-tight text-blue-600">
-            Sistem Pakar Diagnosis Diabetes
+            Sistem Pakar Diagnosis Diabetes Melitus
           </h1>
           <p className="text-lg text-slate-500">
             Perhitungan Menggunakan Certainty Factor (CF)
