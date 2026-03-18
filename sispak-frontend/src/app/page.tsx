@@ -55,10 +55,7 @@ export default function Home() {
     setResult(null);
 
     try {
-      // Dapatkan URL dasar (lokal atau domain Vercel)
-      const baseUrl = typeof window !== 'undefined' ? window.location.origin : '';
-      
-      const response = await fetch(`${baseUrl}/api/predict`, {
+      const response = await fetch("/api/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -77,7 +74,7 @@ export default function Home() {
       console.error(error);
       setResult({
         status: "error",
-        message: "Gagal terhubung ke server backend. Pastikan Flask API berjalan di port 5000.",
+        message: "Gagal terhubung ke server. Silakan coba lagi dalam beberapa saat.",
       });
     } finally {
       setLoading(false);
